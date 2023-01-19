@@ -1,5 +1,5 @@
 resource "aws_rds_cluster" "positive1" {
-  cluster_identifier      = "aurora-cluster-demo"
+  cluster_identifier      = "aurora-cluster-demo1"
   engine                  = "aurora-mysql"
   engine_version          = "5.7.mysql_aurora.2.03.2"
   availability_zones      = ["us-west-2a", "us-west-2b", "us-west-2c"]
